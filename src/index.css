@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.contact {
+  background: rgb(71, 71, 75);
+  text-align: left;
+  color: white
+}
+.connect {
+  text-align: center;
+}
