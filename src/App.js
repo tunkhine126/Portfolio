@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
-import NavigationBar from './Components/Navbar'
+import NavBar from './Components/Navbar'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
 import ContactMe from './Components/ContactMe'
+import Blogs from './Components/Blogs'
+import Landing from './Components/Landing'
 
 
 class App extends Component {
@@ -11,11 +13,14 @@ class App extends Component {
   render() {
    return (
       <div className="App">
-        <NavigationBar />
-          <br/>
-        <AboutMe/>
-          <br />
-        <Projects />
+        <NavBar />
+          <Landing/>
+            <br />  
+          <AboutMe/>
+            <br />
+          <Projects />
+            <br />
+         <Blogs />
           <br />
         <ContactMe />
           <br />
