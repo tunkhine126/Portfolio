@@ -22,12 +22,10 @@ const Projects = () => {
                 <ListGroup.Item className="projtext">
                 {project.framework}
                 </ListGroup.Item>
-                <ListGroup.Item className="projtext">
-                {project.credentials}
-                </ListGroup.Item>
+                {project.credentials ? <ListGroup.Item className="projtext">{project.credentials}</ListGroup.Item> : ""}
               </ListGroup>
-              {project.github_frontend ? <Card.Link href={project.github_frontend}>Frontend Repository</Card.Link> : ""}
-              <Card.Link href={project.github_backend}>Backend Repository</Card.Link>
+              {project.github_frontend ? <Card.Link href={project.github_frontend}>GitHub frontend repo</Card.Link> : ""}
+              {project.github_backend ? <Card.Link href={project.github_backend}>GitHub backend repo</Card.Link> : ""}
               {/* <Button variant="secondary" href={project.url} target="_blank">Check it out</Button> */}
             </Card.Body>
           </Card>

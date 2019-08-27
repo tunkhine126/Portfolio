@@ -48,10 +48,9 @@ code {
 }
 
 .projectImage {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-height:400px;
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
 
 .bannerText{

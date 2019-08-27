@@ -1,13 +1,13 @@
 import React from 'react';
 import BlogPosts from '../Data/BlogPosts'
-import { Card, CardGroup, Button } from 'react-bootstrap'
+import { Card, CardDeck, Button } from 'react-bootstrap'
 
 const Blogs = () => {
 
   return (
     <div id="articles">
       <h2> ARTICLES </h2>
-      <CardGroup>
+      <CardDeck>
       {BlogPosts.map(blog => 
         <Card blog={blog} key={blog.id} style={{ width: '18rem' }}>
           <Card.Img variant="top" src={blog.img_url} />
@@ -20,7 +20,7 @@ const Blogs = () => {
                     </Card.Body>
                   </Card>
       )}
-      </CardGroup>
+      </CardDeck>
     </div>
   )
 }

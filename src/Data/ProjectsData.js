@@ -3,7 +3,7 @@ const AllProjects = [
     id: 1,
     name: "SHRED",
     img_url: "https://raw.githubusercontent.com/tunkhine126/Portfolio/master/src/Images/shred.png",
-    description: "The premiere app for searching mountain biking trails near you, adding them to your profile and finding friends to ride with.",
+    description: "A social fitness network for mountain bikers, used to search and track trails you have “shred”",
     github_frontend: "https://github.com/tunkhine126/SHRED-Frontend",
     github_backend: "https://github.com/tunkhine126/SHRED-Backend",
     framework: "The backend is built using a Ruby on Rails framework while the frontend is built on a React-Redux framework.",
@@ -24,7 +24,7 @@ const AllProjects = [
   {
     id: 3,
     name: "My portfolio",
-    img_url: "https://raw.githubusercontent.com/tunkhine126/Portfolio/master/src/Images/portfolio.png",
+    img_url: "https://raw.githubusercontent.com/tunkhine126/Portfolio/master/src/Images/tk_portfolio.png",
     description: "My personal portfolio site to showcase projects and articles.",
     github_frontend: "https://github.com/tunkhine126/Portfolio",
     github_backend: "",

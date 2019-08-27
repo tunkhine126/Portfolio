@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
