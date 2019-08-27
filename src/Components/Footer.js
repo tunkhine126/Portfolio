@@ -1,44 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
+import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
   return (
     <div>
-    <Footer color="blue" className="font-small pt-4 mt-4">
-      <Container fluid className="text-center text-md-left">
-        <Row>
-          <Col md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
-          </Col>
-          <Col md="6">
-            <h5 className="title">Links</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
-      </Container>
-      <div className="footer-copyright text-center py-3">
-        <Container fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="SOME LINK"> somelink.com </a>
-        </Container>
-      </div>
-    </Footer>
+      <SocialIcon className="github" url="https://github.com/tunkhine126" target="_blank" bgColor="#a031e1"/> GitHub {''}
+      <SocialIcon className="medium" url="https://medium.com/@tunkhine126" target="_blank" /> Medium {''}
+      <SocialIcon className="twitter" url="https://twitter.com/TunTheCoder" target="_blank" /> Twitter {''}
+      <SocialIcon className="instagram" url="https://www.instagram.com/tkhine126/" target="_blank" /> Instagram {''}
+      <br/>
+      <div className="creator">Created by Tun Khine</div>
     </div>
   );
 }

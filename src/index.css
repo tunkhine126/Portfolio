@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Titillium Web',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,9 +13,9 @@ code {
 }
 
 .contact {
-  background: rgb(71, 71, 75);
+  background: rgb(49, 49, 52);
   text-align: left;
-  color: white
+  color: rgb(160, 49, 225) !important;
 }
 .connect {
   text-align: center;
@@ -30,19 +30,39 @@ code {
   color: white,
 }
 
+.navBar {
+  height: 8vh;
+}
+.navbar-name {
+  color:  rgb(160, 49, 225) !important;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.navbar-links {
+  color:  white !important;
+}
+
 .projtext {
   text-align: left;
 }
 
+.projectImage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-height:400px;
+}
+
 .bannerText{
-  color: white;
+  color:  rgb(160, 49, 225);
   font-style: italic;
-  font-size: 60px;
+  font-size: 80px;
+  font-weight: 600;
 }
 .bannerPara{
-  color: white;
-  font-style: italic;
-  font-size: 20px;
+  color:white;
+  font-size: 30px;
 }
 
 .compHeader {
@@ -54,4 +74,12 @@ code {
   float: none; /* Added */
   display:flex; 
   flex-direction:row /* Added */
+}
+
+.contactForm {
+  margin: 0 auto; /* Added */
+  width: 700px
+}
+.creator {
+  font-size: 2%
 }
