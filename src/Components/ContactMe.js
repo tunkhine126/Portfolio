@@ -17,7 +17,7 @@ class ContactMe extends Component {
 
   render() {
     return (
-        <div className="contact">
+      <div className="contact" id="contactMe">
         <h3 className="connect">Lets Connect <Mail size={35}/></h3>
           <Container> 
             <Row>
@@ -51,6 +51,7 @@ class ContactMe extends Component {
                     Submit
                   </Button>
                 </Form>
+              <br />
               </Col>
             </Row>
           </Container>

@@ -6,15 +6,16 @@ const NavigationBar = () => {
 
 return (
   <div>
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" fixed="top">
       <Navbar.Brand>
         <img src={Tun} alt="logo" style={{ alignSelf: 'center', height: 60, width: 60, borderWidth: 1, }} /> </Navbar.Brand>
-          <Navbar.Brand>Tun Khine</Navbar.Brand>
-            <Nav className="justify-content-end">
+          <Navbar.Brand href="#top">Tun Khine</Navbar.Brand>
+            <Navbar.Collapse className="justify-content-end">
               <Nav.Link href="#aboutMe">About me</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
+              <Nav.Link href="#articles">Articles</Nav.Link>
               <Nav.Link href="#contactMe">Contact me</Nav.Link>
-            </Nav>
+            </Navbar.Collapse>
       </Navbar>
   </div>
   )

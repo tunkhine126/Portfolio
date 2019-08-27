@@ -27,5 +27,31 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white
+  color: white,
+}
+
+.projtext {
+  text-align: left;
+}
+
+.bannerText{
+  color: white;
+  font-style: italic;
+  font-size: 60px;
+}
+.bannerPara{
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.compHeader {
+  color: #802BB1
+}
+
+.landingInfo{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  display:flex; 
+  flex-direction:row /* Added */
 }

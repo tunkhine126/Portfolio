@@ -5,7 +5,7 @@ import { Card, CardGroup, Button } from 'react-bootstrap'
 const Blogs = () => {
 
   return (
-    <div>
+    <div id="articles">
       <h2> ARTICLES </h2>
       <CardGroup>
       {BlogPosts.map(blog => 
@@ -16,7 +16,7 @@ const Blogs = () => {
             <Card.Text>
               {blog.description}
               </Card.Text>
-                <Button variant="info" href={blog.url} target="_blank">Read</Button>
+                <Button variant="dark" href={blog.url} target="_blank">Read</Button>
                     </Card.Body>
                   </Card>
       )}

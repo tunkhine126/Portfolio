@@ -1,29 +1,30 @@
 import React, {Component} from 'react';
 import './App.css';
-import NavBar from './Components/Navbar'
+import NavigationBar from './Components/NavigationBar'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
 import ContactMe from './Components/ContactMe'
 import Blogs from './Components/Blogs'
 import Landing from './Components/Landing'
-
+// import Footer from './Components/Footer'
 
 class App extends Component {
 
   render() {
    return (
       <div className="App">
-        <NavBar />
+        <NavigationBar />
           <Landing/>
-            <br />  
+       <br />  <br />  
           <AboutMe/>
-            <br />
+       <br /><br />  
           <Projects />
-            <br />
+       <br /><br />  
          <Blogs />
-          <br />
+       <br /><br />  
         <ContactMe />
-          <br />
+       <br /><br />  
+          {/* <Footer /> */}
       </div>
     );
   }

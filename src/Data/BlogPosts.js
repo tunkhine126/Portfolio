@@ -33,7 +33,7 @@ const Allblogs = [
     length: "3 min read",
     url: "https://medium.com/@tunkhine126/strava-swedish-for-strive-5e8f8c62f200",
     img_url: "https://miro.medium.com/fit/c/700/210/1*yYpDj012U3snLg3vCkagPg.png",
-    description: "Back in 2015 I really started to get into cycling. It used to be just about zooming from place to place within…",
+    description: "Back in 2015 I really started to get into cycling. It used to be just about zooming from place to place withina few mile radius but quickly became an…",
   }, 
 
 ]
