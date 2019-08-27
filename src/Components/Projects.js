@@ -1,16 +1,16 @@
 import React from 'react';
 import ProjectsData from '../Data/ProjectsData';
-import { Card, CardGroup, ListGroup } from 'react-bootstrap';
+import { Card, CardDeck, ListGroup } from 'react-bootstrap';
 
 const Projects = () => {
 
   return (
-    <div className="projects" id="projects">
+    <div className="projects" >
       <h2> PROJECTS </h2>
-      <CardGroup>
+      <CardDeck>
         {ProjectsData.map(project =>
-          <Card project={project} key={project.id} style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={project.img_url} />
+          <Card project={project} key={project.id} style={{ width: '10rem' }} >
+            <Card.Img variant="top" src={project.img_url} className="projectImage"/>
             <Card.Body>
               <Card.Header as="h4"> 
                 <Card.Link href={project.project_url}>{project.name}</Card.Link>
@@ -32,7 +32,7 @@ const Projects = () => {
             </Card.Body>
           </Card>
         )}{' '}
-      </CardGroup>
+      </CardDeck>
       <br />
     </div>
   )
