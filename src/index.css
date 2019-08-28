@@ -33,6 +33,7 @@ code {
 .navBar {
   height: 8vh;
 }
+
 .navbar-name {
   color:  rgb(160, 49, 225) !important;
   font-weight: 500;
@@ -55,10 +56,11 @@ code {
 
 .bannerText{
   color:  rgb(160, 49, 225);
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 80px;
   font-weight: 600;
 }
+
 .bannerPara{
   color:white;
   font-size: 30px;
@@ -69,16 +71,22 @@ code {
 }
 
 .landingInfo{
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
+  margin: 0 auto; 
+  float: none;
   display:flex; 
-  flex-direction:row /* Added */
+  flex-direction:row 
 }
 
 .contactForm {
-  margin: 0 auto; /* Added */
+  margin: 0 auto;
   width: 700px
 }
 .creator {
   font-size: 2%
+}
+
+.footer {
+  background: rgb(49, 49, 52);
+  color: white;
+  height: 10vh;
 }

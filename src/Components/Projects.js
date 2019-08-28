@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectsData from '../Data/ProjectsData';
-import { Card, CardDeck, ListGroup } from 'react-bootstrap';
+import { Card, CardDeck, ListGroup, Container } from 'react-bootstrap';
 
 const Projects = () => {
 
   return (
-    <div className="projects" >
+    <div className="projects" id="projects">
+      <Container fluid>
       <h2> PROJECTS </h2>
       <CardDeck>
         {ProjectsData.map(project =>
@@ -32,6 +33,7 @@ const Projects = () => {
         )}{' '}
       </CardDeck>
       <br />
+      </Container>  
     </div>
   )
   }

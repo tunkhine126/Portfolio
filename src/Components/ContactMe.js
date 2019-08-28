@@ -12,13 +12,18 @@ class ContactMe extends Component {
 
     handleContact = (e) => {
       e.preventDefault()
-      console.log("hello", e.target.name.value, e.target.email.value, e.target.message.value)
+      // console.log("hello", e.target.name.value, e.target.email.value, e.target.message.value)
+      this.setState({
+        Name: [e.target.name.value],
+        Email: [e.target.email.value],
+        Message: [e.target.message.value]
+      })
     }
 
   render() {
     return (
       <div className="contact" id="contactMe">
-        <h3 className="connect"><Mail size={40}/></h3>
+        <h3 className="connect">Let's Connect<Mail size={40}/></h3>
           <Form className="contactForm" onSubmit={(e) => this.handleContact(e)}>
             <Form.Group controlId="Name">
               <Form.Control name="name" required={true} type="name" placeholder="Enter your name" />
