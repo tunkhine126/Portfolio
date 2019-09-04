@@ -7,6 +7,7 @@ const Footer = () => {
       <div className="container h-100">
         <div className="row align-items-center h-100">
           <div className="col-8 mx-auto" id="aboutMe">
+            <SocialIcon className="linkedin" url="https://www.linkedin.com/in/tun-khine-741852133/" target="_blank" /> LinkedIn {''}
             <SocialIcon className="github" url="https://github.com/tunkhine126" target="_blank" bgColor="#a031e1"/> GitHub {''}
             <SocialIcon className="medium" url="https://medium.com/@tunkhine126" target="_blank" bgColor="#FFFFFF"/> Medium {''}
             <SocialIcon className="twitter" url="https://twitter.com/TunTheCoder" target="_blank" /> Twitter {''}
