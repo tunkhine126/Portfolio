@@ -7,6 +7,7 @@ The live version of the site can be found [here](https://tunkhine.dev).
 ### Stack
 
 Front end - React
+
 CSS - Bootstrap and custom CSS
 
 ### Future additions: 
