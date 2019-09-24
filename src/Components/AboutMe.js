@@ -44,7 +44,7 @@ return (
               Adept at explaining complex software development concepts and processes to audiences at all levels in a clear and accessible manner. 
               Critical thinker, thoughtful communicator and able to work well independently or as part of a multi-functional team.</p>
               <p>Experienced in React, Redux, JavaScript, Ruby on Rails, PostgreSQL, GitHub, HTML, CSS, Bootstrap, and Semantic U.I. </p>
-              <p>Lover of racing bikes, learning, and growth mindset.</p>
+              <p>Lover of bike racing, learning, and growth mindset.</p>
             </Card.Body>
           </Accordion.Collapse>
         </Card>

@@ -31,6 +31,17 @@ const AllProjects = [
     framework: "Created using React",
     project_url: "https://tunkhine.dev",
     credentials: "",
+  },
+  {
+    id: 4,
+    name: "SimpleApp",
+    img_url: "https://raw.githubusercontent.com/tunkhine126/Portfolio/master/src/Images/Screen%20Shot%202019-09-21%20at%201.08.31%20PM.png",
+    description: "Third part of an assessment for an engineering role at SalesLoft. Two main features were displaying records and adding a button that displays the character frequency count of the email addresses.",
+    github_frontend: "https://github.com/tunkhine126/SalesLoft_SimpleApp",
+    github_backend: "",
+    framework: "Created using React.",
+    project_url: "https://salesloftsimple-web-app.web.app/",
+    credentials: "",
   }
 ]
 

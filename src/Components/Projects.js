@@ -5,7 +5,7 @@ import { Card, CardDeck, ListGroup, Container } from 'react-bootstrap';
 const Projects = () => {
 
   return (
-    <div className="projects" id="projects">
+    <div id="projects">
       <Container fluid>
       <h2> PROJECTS </h2>
       <CardDeck>
@@ -16,11 +16,11 @@ const Projects = () => {
               <Card.Header as="h4"> 
                 <Card.Link href={project.project_url}>{project.name}</Card.Link>
               </Card.Header><br/>
-              <Card.Subtitle>
+              <Card.Subtitle fluid>
                 {project.description}
               </Card.Subtitle><br />
               <ListGroup>
-                <ListGroup.Item className="projtext">
+                <ListGroup.Item fluid className="projtext">
                 {project.framework}
                 </ListGroup.Item>
                 {project.credentials ? <ListGroup.Item className="projtext">{project.credentials}</ListGroup.Item> : ""}
