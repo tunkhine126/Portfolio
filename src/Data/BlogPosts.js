@@ -35,7 +35,15 @@ const Allblogs = [
     img_url: "https://miro.medium.com/fit/c/700/210/1*yYpDj012U3snLg3vCkagPg.png",
     description: "Back in 2015 I really started to get into cycling. It used to be just about zooming from place to place withina few mile radius but quickly became an…",
   }, 
-
+  {
+    id: 5,
+    title: "Unfortunately, temporary settlements are not temporary",
+    date: "October 4",
+    length: "4 min read",
+    url: "https://medium.com/@tunkhine126/unfortunately-temporary-settlements-are-not-temporary-cad1a4641a25",
+    img_url: "https://miro.medium.com/fit/c/700/210/1*fTp7hzZG4Bu3glr0XztCyg.jpeg",
+    description: "The statistics are clear. According to an internal UNHCR report, “The average time refugees spend in camps is 17 years.” Let that number sink in a bit…",
+  }, 
 ]
 
 export default Allblogs;
