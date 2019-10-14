@@ -11,7 +11,7 @@ const Blogs = () => {
           <CardDeck>
             <Row>
             {BlogPosts.map(blog => 
-            <Col>
+              <Col xs="3">
               <Card blog={blog} key={blog.id} style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={blog.img_url} />
                 <Card.Body>
