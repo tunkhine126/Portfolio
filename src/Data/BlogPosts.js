@@ -6,7 +6,7 @@ const Allblogs = [
     length: "3 min read",
     url: "https://medium.com/@tunkhine126/the-need-for-devs-in-emergency-response-6c0003311f7",
     img_url: "https://miro.medium.com/fit/c/700/210/1*6OFfjPLer9Kgt8zPoJ39sA.jpeg",
-    description: "In late March of 2014, the World Health Organization(WHO) reported the first cases of…",
+    description: "In late March of 2014, the World Health Organization(WHO) reported the first cases of Ebola in the…",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const Allblogs = [
     length: "3 min read",
     url: "https://medium.com/@tunkhine126/strava-swedish-for-strive-5e8f8c62f200",
     img_url: "https://miro.medium.com/fit/c/700/210/1*yYpDj012U3snLg3vCkagPg.png",
-    description: "Back in 2015 I really started to get into cycling. It used to be just about zooming from place to place withina few mile radius but quickly became an…",
+    description: "Back in 2015 I really started to get into cycling. It used to be just about zooming from place within a few mile radius…",
   }, 
   {
     id: 5,
@@ -42,7 +42,7 @@ const Allblogs = [
     length: "4 min read",
     url: "https://medium.com/@tunkhine126/unfortunately-temporary-settlements-are-not-temporary-cad1a4641a25",
     img_url: "https://miro.medium.com/fit/c/700/210/1*fTp7hzZG4Bu3glr0XztCyg.jpeg",
-    description: "The statistics are clear. According to an internal UNHCR report, “The average time refugees spend in camps is 17 years.” Let that number sink in a bit…",
+    description: "The statistics are clear. According to an internal UNHCR report, “The average time refugees spend…",
   }, 
   {
     id: 6,
@@ -51,7 +51,7 @@ const Allblogs = [
     length: "5 min read",
     url: "https://medium.com/@tunkhine126/header-bidding-e296bae2bd6a",
     img_url: "https://miro.medium.com/freeze/fit/c/1400/420/1*rbLJGxupcHRvWG9A3hGqWA.gif",
-    description: "Earlier this year an internet advertising report from IAB and PwC indicated that digital ad spending in the United States surpassed $100 billion. With an industry this large I wanted to learn and provide an overview of the tech powering the advertising industry and how ad tech dollars are used to grab your…",
+    description: "Earlier this year an internet advertising report from IAB and PwC indicated that digital ad spending in the United States…",
   },
 ]
 
