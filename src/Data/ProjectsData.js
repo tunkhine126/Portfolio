@@ -39,7 +39,7 @@ const AllProjects = [
     description: "Third part of an assessment for an engineering role at SalesLoft. Two main features were displaying records and adding a button that displays the character frequency count of the email addresses.",
     github_frontend: "https://github.com/tunkhine126/SalesLoft_SimpleApp",
     github_backend: "",
-    framework: "Created using React.",
+    framework: "Created using React. Using the SalesLoft API to display and complete the requiste tasks.",
     project_url: "https://salesloftsimple-web-app.web.app/",
     credentials: "",
   }

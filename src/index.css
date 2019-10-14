@@ -90,3 +90,10 @@ code {
   color: white;
   height: 10vh;
 }
+
+.projects {
+  display: flex;
+}
+.articles {
+  display: flex;
+}

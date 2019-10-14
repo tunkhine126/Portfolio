@@ -1,11 +1,11 @@
 import React from 'react';
 import ProjectsData from '../Data/ProjectsData';
-import { Card, CardDeck, ListGroup, Container } from 'react-bootstrap';
+import { Card, CardDeck, Container } from 'react-bootstrap';
 
 const Projects = () => {
 
   return (
-    <div id="projects">
+    <div id="projects" className="projects">
       <Container fluid>
       <h2> PROJECTS </h2>
       <CardDeck>
@@ -19,14 +19,12 @@ const Projects = () => {
               <Card.Subtitle fluid>
                 {project.description}
               </Card.Subtitle><br />
-              <ListGroup>
-                <ListGroup.Item fluid className="projtext">
+                <Card.Text fluid className="projtext">
                 {project.framework}
-                </ListGroup.Item>
-                {project.credentials ? <ListGroup.Item className="projtext">{project.credentials}</ListGroup.Item> : ""}
-              </ListGroup>
-              {project.github_frontend ? <Card.Link href={project.github_frontend}>GitHub frontend repo</Card.Link> : ""}
-              {project.github_backend ? <Card.Link href={project.github_backend}>GitHub backend repo</Card.Link> : ""}
+                </Card.Text>
+                {project.credentials ? <Card.Text className="projtext">{project.credentials}</Card.Text> : ""}
+              {project.github_frontend ? <Card.Link href={project.github_frontend}>GitHub frontend </Card.Link> : ""}
+              {project.github_backend ? <Card.Link href={project.github_backend}>GitHub backend </Card.Link> : ""}
               {/* <Button variant="secondary" href={project.url} target="_blank">Check it out</Button> */}
             </Card.Body>
           </Card>
