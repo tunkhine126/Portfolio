@@ -44,6 +44,15 @@ const Allblogs = [
     img_url: "https://miro.medium.com/fit/c/700/210/1*fTp7hzZG4Bu3glr0XztCyg.jpeg",
     description: "The statistics are clear. According to an internal UNHCR report, “The average time refugees spend in camps is 17 years.” Let that number sink in a bit…",
   }, 
+  {
+    id: 6,
+    title: "Exploring ad tech and header bidding",
+    date: "October 10",
+    length: "5 min read",
+    url: "https://medium.com/@tunkhine126/header-bidding-e296bae2bd6a",
+    img_url: "https://miro.medium.com/freeze/fit/c/1400/420/1*rbLJGxupcHRvWG9A3hGqWA.gif",
+    description: "Earlier this year an internet advertising report from IAB and PwC indicated that digital ad spending in the United States surpassed $100 billion. With an industry this large I wanted to learn and provide an overview of the tech powering the advertising industry and how ad tech dollars are used to grab your…",
+  },
 ]
 
 export default Allblogs;
