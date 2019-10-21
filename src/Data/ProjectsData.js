@@ -42,7 +42,18 @@ const AllProjects = [
     framework: "Created using React. Using the SalesLoft API to display and complete the requiste tasks.",
     project_url: "https://salesloftsimple-web-app.web.app/",
     credentials: "",
-  }
+  },
+  {
+    id: 5,
+    name: "Expo Weather App",
+    img_url: "https://github.com/tunkhine126/Expo-Weather-App/blob/master/assets/Screen%20Shot%202019-10-20%20at%202.41.15%20PM.png?raw=true",
+    description: "A simple weather app built using React Native and Expo. A good learning exercise to build my first mobile app.",
+    github_frontend: "https://github.com/tunkhine126/Expo-Weather-App",
+    github_backend: "",
+    framework: "Created using React Native and Expo. Used the OpenWeather API to display weather information.",
+    project_url: "N/A",
+    credentials: "",
+  },
 ]
 
 export default AllProjects;

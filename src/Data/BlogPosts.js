@@ -53,6 +53,15 @@ const Allblogs = [
     img_url: "https://miro.medium.com/freeze/fit/c/1400/420/1*rbLJGxupcHRvWG9A3hGqWA.gif",
     description: "Earlier this year an internet advertising report from IAB and PwC indicated that digital ad spending in the United States…",
   },
+  {
+    id: 7,
+    title: "Your first React Native App with Expo",
+    date: "October 19",
+    length: "6 min read",
+    url: "https://medium.com/@tunkhine126/your-first-react-native-app-with-expo-372ceca3941d?source=friends_link&sk=b7f595e35cfb18ed37d0b10ef4ff2938",
+    img_url: "https://miro.medium.com/fit/c/700/210/1*PFsTo_cmH1OqfjHo9q6qmg.png",
+    description: "If you’re like me, a newbie to mobile app development but have experience developing with React, Expo is an excellent tool…",
+  },
 ]
 
 export default Allblogs;
