@@ -62,6 +62,15 @@ const Allblogs = [
     img_url: "https://miro.medium.com/fit/c/700/210/1*PFsTo_cmH1OqfjHo9q6qmg.png",
     description: "If you’re like me, a newbie to mobile app development but have experience developing with React, Expo is an excellent tool…",
   },
+  {
+    id: 8,
+    title: "Red, Green, Refactor",
+    date: "October 26",
+    length: "7 min read",
+    url: "https://medium.com/@tunkhine126/red-green-refactor-42b5b643b506?source=friends_link&sk=7edfae1d35d66bb611de0ebf9451709f",
+    img_url: "https://miro.medium.com/fit/c/700/210/1*tZSwCigaTaJdovyWlp5uBQ.jpeg",
+    description: "Robert Cecil Martin, better know as Uncle Bob describes Test Driven Development (TDD) in terms of three simple rules. You are not allowed to write any production…",
+  },
 ]
 
 export default Allblogs;
