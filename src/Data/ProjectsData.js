@@ -57,7 +57,7 @@ const AllProjects = [
   {
     id: 6,
     name: "XKCD Web Comic App",
-    img_url: "",
+    img_url: "https://github.com/tunkhine126/Portfolio/blob/master/src/Images/xkcd.png?raw=true",
     description: "New Story Charity's assessment for an Engineering Role",
     github_frontend: "https://github.com/tunkhine126/xkcd-webcomic-app",
     github_backend: "",
