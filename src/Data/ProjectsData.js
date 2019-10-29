@@ -54,6 +54,17 @@ const AllProjects = [
     project_url: "N/A",
     credentials: "",
   },
+  {
+    id: 6,
+    name: "XKCD Web Comic App",
+    img_url: "",
+    description: "New Story Charity's assessment for an Engineering Role",
+    github_frontend: "https://github.com/tunkhine126/xkcd-webcomic-app",
+    github_backend: "",
+    framework: "Created using React and Cypress for testing. Used the XKCD API to display comics.",
+    project_url: "https://xkcd-webcomic-app.firebaseapp.com/",
+    credentials: "",
+  },
 ]
 
 export default AllProjects;
