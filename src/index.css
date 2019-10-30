@@ -93,7 +93,13 @@ code {
 
 .projects {
   display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
 }
 .articles {
   display: flex;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
 }

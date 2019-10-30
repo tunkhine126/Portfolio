@@ -1,16 +1,20 @@
 import React from 'react';
 import MdCenterFocusStrong from 'react-icons/lib/md/center-focus-strong';
-import MdArrowDropDownCircle from 'react-icons/lib/md/arrow-drop-down-circle';
+// import MdArrowDropDownCircle from 'react-icons/lib/md/arrow-drop-down-circle';
 import GoBook from 'react-icons/lib/go/book'
 import GoTools from 'react-icons/lib/go/tools';
-import { Col, Row, Container, Accordion, Card, Button } from 'react-bootstrap';
+import { Col, Row, Container, 
+  // Accordion, 
+  // Card, 
+  // Button 
+} from 'react-bootstrap';
 
 
 const AboutMe = () => {
 
 return (
   <div id="aboutMe">
-    <h2> About Me </h2>
+    <h2>{' '}</h2>
       <Container>
         <Row>
           <Col xs={6} md={4}>
@@ -30,7 +34,8 @@ return (
           </Col>
         </Row>
       </Container>
-    <Container>
+      
+    {/* <Container>
       <Accordion defaultActiveKey="1">
         <Card>
           <div>
@@ -49,7 +54,7 @@ return (
           </Accordion.Collapse>
         </Card>
       </Accordion>
-    </Container><br/>
+    </Container><br/> */}
   </div>
  )
 }
