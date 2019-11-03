@@ -71,6 +71,15 @@ const Allblogs = [
     img_url: "https://miro.medium.com/fit/c/700/210/1*tZSwCigaTaJdovyWlp5uBQ.jpeg",
     description: "Robert Cecil Martin, better know as Uncle Bob describes Test Driven Development (TDD) in terms of three simple rules. You are not allowed to write any production…",
   },
+  {
+    id: 9,
+    title: "Let’s make web apps accessible to everyone",
+    date: "November 1",
+    length: "6 min read",
+    url: "https://medium.com/@tunkhine126/lets-make-web-apps-accessible-to-everyone-af7c70140f03",
+    img_url: "https://miro.medium.com/fit/c/700/210/1*KnuuIf9XjDlFl6R5jIKxiA.jpeg",
+    description: "Without question, accessibility matters in web development. We as engineers need to be advocating for this in the apps we build while making every effort to…",
+  },
 ]
 
 export default Allblogs;
