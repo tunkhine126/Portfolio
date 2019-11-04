@@ -3,6 +3,7 @@ import MdCenterFocusStrong from 'react-icons/lib/md/center-focus-strong';
 // import MdArrowDropDownCircle from 'react-icons/lib/md/arrow-drop-down-circle';
 import GoBook from 'react-icons/lib/go/book'
 import GoTools from 'react-icons/lib/go/tools';
+import GoGitMerge from 'react-icons/lib/go/git-merge'
 import { Col, Row, Container, 
   // Accordion, 
   // Card, 
@@ -17,20 +18,25 @@ return (
     <h2>{' '}</h2>
       <Container>
         <Row>
-          <Col xs={6} md={4}>
+          <Col xs={6} md={3}>
             <MdCenterFocusStrong size={80} style={{ color: '#1CDBCE' }} />
               <h3 style={{ color: 'black' }}>Focused on Quality</h3>
             <p> A keen attention to detail and strong work ethic result in setting a high bar, and rising to meet it. </p>
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={6} md={3}>
             <GoBook size={80} style={{ color: '#C96A19' }} />
               <h3 style={{ color: 'black' }}>Driven by learning</h3>
-            <p>Powered by the opportunity to figure things out. It’s fun!</p>
+            <p>I enjoy figuring things out and sharing that knowledge! It’s fun!</p>
           </Col>
-          <Col xs={6} md={4}>
+          <Col xs={6} md={3}>
            <GoTools size={80} style={{ color: 'red' }} />
              <h3 style={{ color: 'black' }}>Multi-faceted</h3>
             <p>As a Humanitarian and administration expert, I bring a unique perspective and depth of experience to my work.</p>
+          </Col>
+          <Col xs={6} md={3}>
+            <GoGitMerge size={80} style={{ color: 'purple' }} />
+            <h3 style={{ color: 'black' }}>Collaborative</h3>
+            <p>A strong belief in collaboration to craft solid and creative code.</p>
           </Col>
         </Row>
       </Container>
