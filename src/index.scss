@@ -1,3 +1,6 @@
+$duration: 0.5s;
+$card-border: .5px solid grey;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -9,7 +12,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  monospace;
 }
 
 .contact {
@@ -97,6 +100,7 @@ code {
   width: 80%;
   padding: 10px;
 }
+
 .articles {
   display: flex;
   margin: auto;
@@ -110,21 +114,28 @@ code {
 .container{
   display: flex;
   flex-direction: column;
+  justify-content: center !important;
 }
 
+
 .projectCard {
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    border: none !important;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  border: none !important;
+  transition: $duration;
+}
+
+.projectCard:hover {
+  margin-bottom: 6vw;
 }
 
 .face {
-    transition: 0.5s;
-    /* width: 319px; */
-    height: 100%;
-    /* height: 350px; */
+  transition: $duration;
+  /* width: 319px; */
+  height: 100%;
+  /* height: 350px; */
 }
 
 .face.face1{
@@ -137,39 +148,44 @@ code {
   align-items: center;
   z-index: 1;
   transform: translateY(100px);
+  box-shadow: 20px -30px 20px 0px rgba(0, 0, 0, 0.5);
+  border: $card-border;
 }
 
 .projectCard:hover .face.face1 {
   background: #fff;
   transform: translateY(0);
-  box-shadow: 20px -20px 20px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+  border: none;
+  border-bottom: none;
 }
 
 .projectCard .face.face1 .content{
-    opacity: 0.5;
-    transition: 0.5s;
+  opacity: 0.5;
+  transition: $duration;
 }
 
 .projectCard:hover .face.face1 .content{
-    opacity: 1;
+  opacity: 1;
 }
 
 .projectCard .face.face1 .content h4{
-    margin: 10px 0 0;
-    padding: 0;
-    color: #fff;
-    text-align: center;
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
 }
 
 .projectCard .face.face2{
-    opacity: 0;
-    height: 100%;
-    background: #fff;
-    transform: translateY(-113px);
+  padding-top: 20px;
+  opacity: 0;
+  height: 100%;
+  background: #fff;
+  border-top: none;
+  transform: translateY(-80px);
 }
 
 .projectCard:hover .face.face2{
-    box-shadow: 20px -30px 20px 0px rgba(0, 0, 0, 0.5);
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
