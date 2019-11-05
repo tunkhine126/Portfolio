@@ -8,7 +8,7 @@ The live version of the site can be found [here](https://tunkhine.dev).
 
 Front end - React
 
-CSS - Bootstrap and custom CSS
+SCSS - Bootstrap and custom SCSS
 
 ### Future additions: 
 I'll keep adding additional features/content, new projects I've completed and articles I write. 
