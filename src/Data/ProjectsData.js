@@ -3,7 +3,7 @@ const AllProjects = [
     id: 1,
     name: "SHRED",
     img_url: "https://raw.githubusercontent.com/tunkhine126/Portfolio/master/src/Images/shred.png",
-    description: "A social fitness network for mountain bikers to search and track trails you have “shred”",
+    description: "A social fitness network for mountain bikers to track trails you've “shred”",
     github_frontend: "https://github.com/tunkhine126/SHRED-Frontend",
     github_backend: "https://github.com/tunkhine126/SHRED-Backend",
     framework: "The backend is built using a Ruby on Rails framework while the frontend is built on a React-Redux framework.",
