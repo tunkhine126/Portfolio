@@ -1,0 +1,174 @@
+@import './media-breakpoints.scss';
+
+$duration: 0.5s;
+$card-border: 1px solid grey;
+$project-image-height: 20vh;
+$shadow: 10px 10px 10px 0px rgba(0,0,0, .50);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Titillium Web',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.contact {
+  background: rgb(49, 49, 52);
+  text-align: left;
+  color: rgb(160, 49, 225) !important;
+}
+.connect {
+  text-align: center;
+}
+
+.bg {
+  background-image: url(../Images/landing.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white,
+}
+
+.navBar {
+  height: 8vh;
+}
+
+.navbar-name {
+  color:  rgb(160, 49, 225) !important;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.navbar-links {
+  color:  white !important;
+}
+
+.projtext {
+  text-align: left;
+}
+
+.bannerText{
+  color:  rgb(160, 49, 225);
+  /* font-style: italic; */
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.bannerPara{
+  color:white;
+  font-size: 30px;
+}
+
+.compHeader {
+  color: #802BB1
+}
+
+.landingInfo{
+  margin: 0 auto; 
+  float: none;
+  display:flex; 
+  flex-direction:row 
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+
+  @include mbp-range(xs, sm) {
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 10px;
+  }
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#AboutMe {
+  margin: 50px auto;
+}
+
+.contactForm {
+  margin: 0 auto;
+  width: 700px
+}
+.creator {
+  font-size: 2%
+}
+
+.footer {
+  background: rgb(49, 49, 52);
+  color: white;
+  height: 10vh;
+}
+
+.projects {
+  margin: 5vw;
+}
+
+.articles {
+  display: flex;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+
+/* Projects CSS */
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 4vw;
+  grid-column-gap: 4vw;
+
+  width: 85vw;
+  margin: 4vw auto 0;
+
+  @include mbp-range(xs, sm) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  @include mbp-only(md) {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 60px;
+  }
+}
+
+.project-card {
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: $shadow;
+  
+  height: $project-image-height;
+  transition: height $duration;
+
+  &:hover .project-image {
+    opacity: 1;
+  }
+}
+
+.project-image {
+  width: 100%;
+  height: $project-image-height;
+  object-fit: cover;
+
+  opacity: 0.50;
+  transition: opacity $duration;
+}
+
+.padding-container {
+  padding: 10px;
+}

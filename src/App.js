@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './Stylesheets/App.css'
 import NavigationBar from './Components/NavigationBar'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
@@ -13,16 +13,13 @@ class App extends Component {
   render() {
    return (
      <div className="App">
-       <NavigationBar />
-        <Landing/>
-          <br />
-           <AboutMe />
-              <Projects />
-              <Blogs />
-            <br /><br />  
-          {/* <ContactMe />*/}
-        <Footer />
-      </div>
+      <NavigationBar />
+      <Landing/>
+      <AboutMe />
+      <Projects />
+      <Blogs />
+      <Footer />
+    </div>
     );
   }
 }
