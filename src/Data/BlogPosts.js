@@ -80,6 +80,15 @@ const Allblogs = [
     img_url: "https://miro.medium.com/fit/c/700/210/1*KnuuIf9XjDlFl6R5jIKxiA.jpeg",
     description: "Without question, accessibility matters in web development. We as engineers need to be advocating for this in the apps we build while making every effort to…",
   },
+  {
+    id: 10,
+    title: "More tests with cypress.io!",
+    date: "November 8",
+    length: "5 min read",
+    url: "https://medium.com/@tunkhine126/more-tests-with-cypress-io-9222ffe74f4a",
+    img_url: "https://miro.medium.com/fit/c/1400/420/1*j7ih2zzcCyifrZJ2lOy0FQ.png",
+    description: "In a previous article, I covered integrating and writing your first tests using the end-to-end testing platform, cypress.io.This week, let’s delve into writ…",
+  },
 ]
 
 export default Allblogs;
