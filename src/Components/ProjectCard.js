@@ -12,7 +12,7 @@ class ProjectCard extends Component {
   	const card = document.getElementById(`project-num-${this.props.project.id}`);
     card.style.height = null;
   }
-
+  
 	render() {
     const p = this.props.project;
     

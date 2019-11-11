@@ -4,10 +4,10 @@ import ProjectsData from '../Data/ProjectsData.js'
 
 
 
-const Projects = (props) => {
+const Projects = () => {
   return (
     <div id="projects" className="projects">
-      <h2>PROJECTS</h2>
+      <h2>RECENT PROJECTS</h2>
 
       <div className="projects-container">
         {ProjectsData.map(project => <ProjectCard project={project} key={project.id} />)}
