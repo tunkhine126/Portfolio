@@ -4,6 +4,7 @@ $duration: 0.5s;
 $card-border: 1px solid grey;
 $project-image-height: 20vh;
 $shadow: 10px 10px 10px 0px rgba(0,0,0, .50);
+$article-image-height: 20vh;
 
 body {
   margin: 0;
@@ -117,12 +118,8 @@ code {
 }
 
 .articles {
-  display: flex;
-  margin: auto;
-  width: 75%;
-  padding: 10px;
+  margin: 5vw;
 }
-
 
 /* Projects CSS */
 
@@ -163,6 +160,55 @@ code {
 .project-image {
   width: 100%;
   height: $project-image-height;
+  object-fit: cover;
+
+  opacity: 0.50;
+  transition: opacity $duration;
+}
+
+.padding-container {
+  padding: 10px;
+}
+
+/* Articles CSS */
+
+.articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 4vw;
+  grid-column-gap: 4vw;
+
+  width: 85vw;
+  margin: 4vw auto 0;
+
+  @include mbp-range(xs, sm) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  @include mbp-only(md) {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 60px;
+    grid-column-gap: 60px;
+  }
+}
+
+.article-card {
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: $shadow;
+  
+  height: $article-image-height;
+  transition: height $duration;
+
+  &:hover .article-image {
+    opacity: 1;
+  }
+}
+
+.article-image {
+  width: 100%;
+  height: $article-image-height;
   object-fit: cover;
 
   opacity: 0.50;

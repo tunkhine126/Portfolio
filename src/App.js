@@ -4,9 +4,9 @@ import NavigationBar from './Components/NavigationBar'
 import AboutMe from './Components/AboutMe'
 import Projects from './Components/Projects'
 // import ContactMe from './Components/ContactMe'
-import Blogs from './Components/Blogs'
 import Landing from './Components/Landing'
 import Footer from './Components/Footer'
+import Articles from './Components/Articles'
 
 class App extends Component {
 
@@ -17,7 +17,7 @@ class App extends Component {
       <Landing/>
       <AboutMe />
       <Projects />
-      <Blogs />
+      <Articles />
       <Footer />
     </div>
     );

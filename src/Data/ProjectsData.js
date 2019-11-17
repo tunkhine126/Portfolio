@@ -51,7 +51,7 @@ const AllProjects = [
     github_frontend: "https://github.com/tunkhine126/Expo-Weather-App",
     github_backend: "",
     framework: "Created using React Native and Expo. Used the OpenWeather API to display weather information.",
-    project_url: "N/A",
+    project_url: "",
     credentials: "",
   },
   {
