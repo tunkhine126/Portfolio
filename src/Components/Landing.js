@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Tun from '../Images/TkHsCircCrop.png';
 import ImageReact from '../Images/React.svg';
 import ImageRuby from '../Images/ruby.svg';
@@ -13,27 +12,26 @@ import ImageCSS from '../Images/css.svg';
 import ImageBootstrap from '../Images/bootstrap.svg';
 
 const Landing = () => {
-  // const imageUrl = window.innerWidth >= 650 ? desktopImage : mobileImage;
 
   return (
     <div className="bg" id="top">
       <div className="container h-100">
         <div className="row align-items-center h-100">
           <div className="col-8 mx-auto" id="aboutMe">
-            <img src={Tun} alt="logo" style={{ alignSelf: 'center', height: 120, width: 120, borderWidth: 1, }} />
+            <img src={Tun} alt="Tun Khine" style={{ alignSelf: 'center', height: 120, width: 120, borderWidth: 1, }} />
             <h1 className="bannerText">Tun Khine</h1>
             <p className="bannerPara" >A full stack developer based in Atlanta, GA.</p>
               <p> 
-                <img src={ImageReact} alt=" " width={40} height={40} />
-                <img src={ImageRedux} alt=" " width={40} height={40} />
-                <img src={ImageJS} alt=" " width={40} height={40} />
-                <img src={ImageRuby} alt=" " width={40} height={40} />
-                <img src={ImageRails} alt=" " width={40} height={40} />
-                <img src={ImagePGSQL} alt=" " width={40} height={40} />
-                <img src={ImageGitHub} alt=" " width={40} height={40} />
-                <img src={ImageHTML} alt=" " width={40} height={40} />
-                <img src={ImageCSS} alt=" " width={40} height={40} />
-                <img src={ImageBootstrap} alt=" " width={40} height={40} />
+                <img src={ImageReact} alt="React Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageRedux} alt="Redux Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageJS} alt="JaveScript Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageRuby} alt="Ruby Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageRails} alt="Ruby on Rails Logo" width={40} height={40} /> &nbsp;
+                <img src={ImagePGSQL} alt="PostgreSQL Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageGitHub} alt="Github Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageHTML} alt="HTML 5 Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageCSS} alt="CSS Logo" width={40} height={40} /> &nbsp;
+                <img src={ImageBootstrap} alt="Bootstrap Logo" width={40} height={40} /> &nbsp;
               </p>
           </div>
         </div>

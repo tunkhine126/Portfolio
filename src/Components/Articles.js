@@ -10,7 +10,6 @@ const Articles = () => {
       <h2>RECENT ARTICLES</h2>
 
       <div className="articles-container">
-        {console.log(ArticlesData)}
         {ArticlesData.map(article => <ArticleCard article={article} key={article.id} />)}
         {/* {ArticlesData.map(article => <ArticleCard article={article} key={article.id} />)} */}
       </div>

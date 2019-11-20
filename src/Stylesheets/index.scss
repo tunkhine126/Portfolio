@@ -35,11 +35,11 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white,
+  color: white;
 }
 
 .navBar {
-  height: 8vh;
+  height: 6vh;
 }
 
 .navbar-name {
@@ -110,7 +110,20 @@ code {
 .footer {
   background: rgb(49, 49, 52);
   color: white;
-  height: 10vh;
+  height: flex;
+  display:flex; 
+  flex-direction:row;
+}
+
+.footer-icon{
+  margin: 1px;
+  top: 5px;
+  bottom: 5px;
+}
+
+.creator-text {
+  margin: 10px;
+  font-size: 10px;
 }
 
 .projects {

@@ -19,7 +19,7 @@ class ProjectCard extends Component {
 		return (
       <div id={ 'project-num-'+ p.id } className="project-card" onMouseEnter={this.expandProjectText} onMouseLeave={this.collapseProjectText}>
         <div className="face1">
-          <img src={p.img_url} alt="Project Pic" className="project-image"/>
+          <img src={p.img_url} alt="Project Screenshot" className="project-image"/>
         </div>
         <div className="face2">
           <div className='padding-container'>
