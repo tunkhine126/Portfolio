@@ -23,13 +23,13 @@ class ProjectCard extends Component {
         </div>
         <div className="face2">
           <div className='padding-container'>
-            <a href={p.project_url}><h4>{p.name}</h4></a>
+            <a href={p.project_url} target="_blank" rel="noopener noreferrer"><h4>{p.name}</h4></a>
             <div className='project-text'>
               <p>{p.description}</p>
-              { p.credentials     && <div className="credentials">{p.credentials}</div> }
-              { p.github_frontend && <a href={p.github_frontend}>GitHub frontend</a> }
+              { p.credentials && <div className="credentials">{p.credentials}</div> }
+              {p.github_frontend && <a href={p.github_frontend} target="_blank" rel="noopener noreferrer">GitHub frontend</a> }
               { p.github_frontend && p.github_backend && <span>&nbsp; | &nbsp;</span> }
-              { p.github_backend  && <a href={p.github_backend}>GitHub backend</a> }
+              {p.github_backend && <a href={p.github_backend} target="_blank" rel="noopener noreferrer">GitHub backend</a> }
             </div>
           </div>
         </div>
