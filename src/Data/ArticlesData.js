@@ -1,5 +1,14 @@
 const AllArticles = [
   {
+    id: 12,
+    title: "A How to Guide on Pagination!",
+    date: "November 23 2019",
+    length: "3 min read",
+    url: "https://medium.com/@tunkhine126/a-how-to-guide-on-pagination-306f85a76b3c",
+    img_url: "https://miro.medium.com/fit/c/638/191/1*F4X8aQyw3Ik7iINPg4AAbQ.png",
+    description: "Pagination is a feature that we, as web users, overlook but use everyday. It’s what guides us through multiple pages of requested information and is an intricate part of any good user…",
+  },
+  {
     id: 11,
     title: "Improve your React app with loading UI!",
     date: "November 16 2019",
