@@ -1,5 +1,14 @@
 const AllArticles = [
   {
+    id: 13,
+    title: "A Journey From Novice To Software Engineer",
+    date: "January 2 2020",
+    length: "6 min read",
+    url: "https://medium.com/@tunkhine126/a-journey-from-novice-to-software-engineer-3fd01dfcc3ae",
+    img_url: "https://miro.medium.com/fit/c/700/210/1*ptQyGQ6Gf6e_4g7cRWp9yw.png",
+    description: "Just over a year ago, I wrote my first lines of code and made my first commit to Github, on 4 Dec 2019. I didn’t know it at the time, but this would be the start of a journey filled…",
+  },
+  {
     id: 12,
     title: "A How to Guide on Pagination!",
     date: "November 23 2019",
