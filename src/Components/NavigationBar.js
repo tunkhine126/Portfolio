@@ -1,6 +1,5 @@
-  import React from 'react';
+import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap'
-// import Tun from '../Images/TkHsCircCrop.png'
 import FaCode from 'react-icons/lib/fa/code';
 
 const NavigationBar = () => {
@@ -15,8 +14,8 @@ return (
         <Nav.Link className="navbar-links" href="#aboutMe">About me</Nav.Link>
         <Nav.Link className="navbar-links" href="#projects">Projects</Nav.Link>
         <Nav.Link className="navbar-links" href="#articles">Articles</Nav.Link>
-    {/* <Nav.Link className="navbar-links"href="#contactMe">Contact me</Nav.Link> */}
         <Nav.Link className="navbar-links" href="https://learn.co/tunkhine126/resume" target="_blank">Resume</Nav.Link>
+        <Nav.Link className="navbar-links" href="https://mail.google.com/mail/?view=cm&fs=1&to=tunkhine126@gmail.com" target="_blank">Contact me</Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   </div>

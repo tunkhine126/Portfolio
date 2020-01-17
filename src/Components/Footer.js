@@ -11,7 +11,8 @@ const Footer = () => {
             <SocialIcon className="footer-icon" url="https://github.com/tunkhine126" target="_blank" bgColor="#a031e1" alt="Github Logo Link" style={{ height: 40, width: 40 }}/> &ensp;
             <SocialIcon className="footer-icon" url="https://medium.com/@tunkhine126" target="_blank" bgColor="#FFFFFF" alt="Medium Logo Link" style={{ height: 40, width: 40 }}/> &ensp;
             <SocialIcon className="footer-icon" url="https://twitter.com/TunTheCoder" target="_blank" alt="Twitter Logo Link" style={{ height: 40, width: 40 }}/> &ensp;
-            <SocialIcon className="footer-icon" url="https://www.instagram.com/tkhine126/" target="_blank" alt="Instagram Logo Link" style={{ height: 40, width: 40 }}/> 
+            <SocialIcon className="footer-icon" url="https://www.instagram.com/tkhine126/" target="_blank" alt="Instagram Logo Link" style={{ height: 40, width: 40 }}/> &ensp;
+            <SocialIcon className="footer-icon" url="https://mail.google.com/mail/?view=cm&fs=1&to=tunkhine126@gmail.com" target="_blank" bgColor="#a031e1" alt="Google Logo Link" style={{ height: 40, width: 40 }}/> &ensp;
             <br/>
           <div className="creator-text">
             <p>Created by Tun Khine</p>
